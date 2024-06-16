@@ -1,4 +1,4 @@
-from itertools import accumulate
+# https://leetcode.com/problems/shifting-letters/description/
 
 '''
 You are given a string s of lowercase English letters and an integer array shifts of the same length.
@@ -22,7 +22,7 @@ Example 2:
 Input: s = "aaa", shifts = [1,2,3]
 Output: "gfd"
 '''
-
+from itertools import accumulate
 
 def shifting_letters(s, shifts) -> str:
     # Example: abc, [3,5,9]
