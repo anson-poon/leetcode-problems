@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/set-matrix-zeroes/description/
 
-def setZeroes(self, matrix: List[List[int]]) -> None:
+def setZeroes(matrix) -> None:
     """
     Do not return anything, modify matrix in-place instead.
     """

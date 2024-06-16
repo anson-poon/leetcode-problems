@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/longest-repeating-character-replacement/
 
-def characterReplacement(self, s: str, k: int) -> int:
+def characterReplacement(s: str, k: int) -> int:
     count = {}  #hashmap to store count of each character in current substring
     res = 0
     l = 0
